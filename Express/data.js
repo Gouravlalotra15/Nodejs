@@ -1,4 +1,4 @@
-const products = [
+const people = [
   {
     id: 1,
     name: "gourav",
@@ -20,4 +20,5 @@ const products = [
     name: "gautam",
   },
 ];
-module.exports = products;
+
+module.exports = people;

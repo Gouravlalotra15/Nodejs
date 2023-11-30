@@ -1,0 +1,12 @@
+.hero {
+  height: 20vh;
+  width: 30vw;
+  margin: 100px auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form > button {
+  width: 10vw;
+}

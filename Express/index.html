@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="hero">
+      <form class="form" method="POST" action="/login">
+        <label for="firstName"
+          >Username <input type="text" name="Username" id="firstName"
+        /></label>
+
+        <label>Password <input type="password" /></label>
+        <button id="btn" type="submit">Click here</button>
+      </form>
+    </div>
+    <div id="result"></div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+
+    <script src="./fetchData.js"></script>
+  </body>
+</html>
